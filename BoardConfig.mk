@@ -133,3 +133,13 @@ TW_USE_TOOLBOX := true
 # Encryption
 PLATFORM_SECURITY_PATCH := 2025-12-31
 PLATFORM_VERSION := 16.1.0
+
+# SHRP Configuration
+SHRP_MAINTAINER := epicX
+SHRP_DEVICE_CODE := laurel_sprout
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /sdcard1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usbotg
+SHRP_FLASH := 1
+SHRP_AB := true

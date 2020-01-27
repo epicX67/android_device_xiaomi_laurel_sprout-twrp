@@ -23,5 +23,5 @@
 /boot            emmc              /dev/block/bootdevice/by-name/boot       flags=slotselect;backup=1;flashimg=1
 
 # Removable storage
-/usb-otg         auto              /dev/block/sdg1         /dev/block/sdg   flags=removable;storage;display="USB OTG"
+/usbotg         auto              /dev/block/sdg1         /dev/block/sdg   flags=removable;storage;display="USB OTG"
 /sdcard1         auto              /dev/block/mmcblk0p1                     flags=display="MicroSD";storage;wipeingui;removable
